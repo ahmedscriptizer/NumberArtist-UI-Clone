@@ -2,14 +2,17 @@
   font-family: "NunitoSans";
   src: url("./Nunito/NunitoSans-VariableFont.ttf") format("truetype");
 }
+
 @font-face {
   font-family: "poppins";
   src: url(./Poppins/Poppins-bold.ttf);
 }
+
 @font-face {
   font-family: "poppinsMedium";
   src: url(./Poppins/Poppins-Medium.ttf);
 }
+
 @font-face {
   font-family: "poppinsRegular";
   src: url(./Poppins/Poppins-Regular.ttf);
@@ -21,6 +24,7 @@
   box-sizing: border-box;
   /* border: 2px solid red; */
 }
+
 header {
   position: sticky;
   top: 0;
@@ -33,6 +37,7 @@ body {
   color: white;
   font-family: "poppins";
 }
+
 .bluebar {
   height: 12%;
   width: 100%;
@@ -40,6 +45,7 @@ body {
   display: flex;
   justify-content: center;
 }
+
 .bluebar > p {
   font-size: 12px;
   letter-spacing: 1.92px;
@@ -54,6 +60,7 @@ body {
   padding: 32px 40px;
   color: #2a2a2a;
 }
+
 .logoImg {
   width: 100px;
   height: auto;
@@ -68,10 +75,12 @@ body {
   margin-left: auto;
   flex-wrap: wrap;
 }
+
 /* Trick for centering the logo */
 .MainBar {
   position: relative;
 }
+
 .Img {
   position: absolute;
   left: 50%;
@@ -84,6 +93,7 @@ body {
   padding: 10px;
   color: black;
 }
+
 .listContainers ul {
   display: flex;
   justify-content: center;
@@ -92,6 +102,7 @@ body {
   list-style: none;
   padding-bottom: 14px;
 }
+
 .listContainers li {
   font-family: "poppins", sans-serif;
   font-size: 14.4px;
@@ -112,6 +123,7 @@ body {
   background-color: #003466;
   transition: width 0.3s ease;
 }
+
 .listContainers li:hover::before {
   width: 100%;
 }
@@ -135,18 +147,22 @@ body {
   margin-top: 10px;
   margin: 0 10%;
 }
+
 .HeroContent p {
   letter-spacing: 2.88px;
 }
+
 .bigFont {
   display: block;
   line-height: 1.3;
   font-size: 62px;
   letter-spacing: 9.92px;
 }
+
 .button-container {
   margin-top: 20px;
 }
+
 #shop-button {
   font-family: "poppins";
   line-height: 24px;
@@ -158,9 +174,11 @@ body {
   cursor: pointer;
   transition: background-color 0.2s ease;
 }
+
 #shop-button:hover {
   background-color: #df7213;
 }
+
 .shop-button {
   font-family: "poppins";
   line-height: 24px;
@@ -172,6 +190,7 @@ body {
   cursor: pointer;
   transition: background-color 0.2s ease;
 }
+
 .shop-button:hover {
   background-color: #df7213;
 }
@@ -187,11 +206,13 @@ body {
   letter-spacing: 2.56px;
   line-height: 1.7;
 }
+
 .marginText {
   margin-bottom: 10px;
   font-size: 16px;
   font-weight: 700;
 }
+
 .container-BestSeller {
   background-color: #fff;
   color: black;
@@ -199,6 +220,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 h2 {
   letter-spacing: 0.16em;
   font-size: max(
@@ -208,6 +230,7 @@ h2 {
   padding: 10px 0;
   font-weight: 700;
 }
+
 .GridGallery {
   background-color: #fff;
   color: black;
@@ -231,6 +254,7 @@ h2 {
   text-align: center;
   margin-left: 30%;
 }
+
 .trending-badge-text {
   font-family: "NunitoSans";
   display: flex;
@@ -249,15 +273,18 @@ h2 {
   gap: 2px;
   margin: 9px 0;
 }
+
 .ratingStatus {
   font-family: "Nunito-Sans";
   font-weight: 600;
 }
+
 .price {
   color: rgb(255, 135, 27);
   display: flex;
   justify-content: center;
 }
+
 .labelProduct {
   display: flex;
   align-items: center;
@@ -268,13 +295,16 @@ h2 {
   font-weight: 700;
   letter-spacing: 0.16em;
 }
+
 /* Card UI CSS */
 .card {
   position: relative;
   padding: 1rem;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .card:hover {
@@ -286,8 +316,10 @@ h2 {
   width: 100%;
   height: auto;
   border-radius: 8px;
-  display: block; /*remove extra space*/
+  display: block;
+  /*remove extra space*/
 }
+
 /* Ends Here */
 
 .viewButton {
@@ -298,6 +330,7 @@ h2 {
   width: 100%;
   height: auto;
 }
+
 .viewButton a {
   text-decoration: none;
   background-image: linear-gradient(rgb(255, 135, 27));
@@ -306,12 +339,15 @@ h2 {
   font-size: 17px;
   transition: all 0.3s ease;
 }
+
 .viewButton a:hover {
   background-image: linear-gradient(rgb(230, 118, 20));
 }
+
 hr {
   margin: 20px 0;
 }
+
 .newArrivals {
   color: black;
   background-color: #fff;
@@ -320,10 +356,12 @@ hr {
   align-items: center;
   padding: 40px 40px;
 }
+
 .arrivalSpan img {
   width: 15px;
   height: 16px;
 }
+
 .arrivalSpan {
   display: flex;
   align-items: center;
@@ -337,6 +375,7 @@ hr {
   border-radius: 20px;
   padding: 0 5px;
 }
+
 .arrivalContainer {
   margin: 10px 0;
   padding: 3px 2px;
@@ -346,12 +385,15 @@ hr {
   align-items: center;
   text-align: center;
 }
+
 .newarr {
   padding: 10px 0;
 }
+
 .space {
   padding: 20px 40px;
 }
+
 .faq-container {
   display: flex;
   flex-direction: column;
@@ -360,6 +402,7 @@ hr {
   padding: 20px;
   /* margin: 0 20%; */
 }
+
 .faq-container {
   background-color: #fff;
   color: #000;
@@ -387,7 +430,8 @@ hr {
 .faq-question {
   font-family: "NunitoSans", sans-serif;
   display: flex;
-  justify-content: space-between; /* pushes icon to right side */
+  justify-content: space-between;
+  /* pushes icon to right side */
   align-items: center;
   padding: 12px 20px;
   font-weight: bolder;
@@ -403,6 +447,7 @@ hr {
   font-size: 22px;
   font-weight: bold;
 }
+
 .faq-answer.hidden {
   max-height: 0;
 }
@@ -433,6 +478,7 @@ hr {
   color: #000;
   margin: 5px 10%;
 }
+
 .reviewSwiper {
   max-width: 1044px;
 }
@@ -447,30 +493,37 @@ hr {
   margin: 0 auto;
   max-width: 1200px;
 }
+
 .main-info-container {
   display: flex;
   flex-direction: column;
   padding: 15px 5px;
   height: 60%;
 }
+
 .card2 {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
   width: 100%;
   aspect-ratio: 1/1;
   border-radius: 4px;
 }
+
 .card2:hover {
   transform: translateY(-10px);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
   cursor: pointer;
 }
+
 .product-review-img {
   object-fit: cover;
   height: 100%;
   width: 100%;
   border-radius: 4px;
 }
+
 .ratingbarReviews {
   display: flex;
   background-color: #fff;
@@ -481,6 +534,7 @@ hr {
   margin: 0 auto;
   transform: translateY(-22px);
 }
+
 .info-container {
   display: flex;
   gap: 3px;
@@ -490,6 +544,7 @@ hr {
   font-size: 18px;
   font-weight: 500;
 }
+
 .descriptionReview {
   font-family: "poppinsRegular";
   font-size: 14px;
@@ -537,6 +592,7 @@ hr {
   100% {
     transform: translateX(0);
   }
+
   50% {
     transform: translateX(3px);
   }
@@ -548,10 +604,12 @@ hr {
   100% {
     transform: rotate(180deg) translateX(0);
   }
+
   50% {
     transform: rotate(180deg) translateX(3px);
   }
 }
+
 .easyart-container {
   margin-top: 40px;
   background-image: url(./images/background2.webp);
@@ -563,6 +621,7 @@ hr {
   justify-content: center;
   align-items: center;
 }
+
 .card-container {
   display: flex;
   align-items: center;
@@ -573,18 +632,21 @@ hr {
   color: #000;
   text-align: center;
 }
+
 .easyart-main {
   font-family: "poppins";
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.16em;
 }
+
 .para-container {
   padding: 2px 10px;
   font-family: "NunitoSans";
   font-size: 16 px;
   color: rgb(28, 28, 28);
 }
+
 .lastDesc-container {
   display: flex;
   justify-content: center;
@@ -595,16 +657,19 @@ hr {
   background-color: rgb(250, 249, 246);
   color: rgb(28, 28, 28);
 }
+
 .text-container {
   width: 630px;
   height: 100%;
   padding: 55px 10px;
 }
+
 .paintBelow {
   line-height: 1.7;
   font-size: calc(0.75rem * 1.2);
   letter-spacing: 0.16em;
 }
+
 .ppp {
   font-family: "NunitoSans";
   font-weight: 600;
@@ -612,6 +677,7 @@ hr {
   font-size: 16px;
   margin-bottom: 25px;
 }
+
 .main-container {
   padding: 20px;
   display: flex;
@@ -622,10 +688,12 @@ hr {
   max-width: 1440px;
   gap: 20px;
 }
+
 .big-container {
   background-color: rgb(250, 249, 246);
   color: #000;
 }
+
 .footer-items {
   /* border: 2px solid red; */
   width: 120px;
@@ -635,6 +703,7 @@ hr {
   flex-direction: column;
   gap: 17px;
 }
+
 .firstCol {
   display: flex;
   justify-content: center;
@@ -645,22 +714,27 @@ hr {
   max-width: 24rem;
   flex-basis: 14rem;
 }
+
 .secondcol {
   width: 265px;
   max-width: 24rem;
   flex-basis: 14rem;
 }
+
 .thirdCol {
   width: 200px;
   max-width: 14rem;
 }
+
 .fourthCol {
   max-width: 14rem;
 }
+
 .fifthCol {
   width: 150px;
   max-width: 14rem;
 }
+
 .footer-para1 {
   font-family: "NunitoSans";
   font-size: 16px;
@@ -668,22 +742,26 @@ hr {
   color: rgba(28, 28, 28, 0.65);
   line-height: 1.8;
 }
+
 .headline {
   font-size: calc(0.75rem * 1.2);
   line-height: 1.7;
   font-family: "poppins";
   letter-spacing: 0.16em;
 }
+
 strong {
   font-family: "NunitoSans";
   font-weight: 900;
 }
+
 .page-link {
   list-style: none;
   display: flex;
   flex-direction: column;
   /* gap: 10px; */
 }
+
 .link-faded {
   text-decoration: none;
   color: rgba(28, 28, 28, 0.65);
@@ -693,12 +771,14 @@ strong {
   font-weight: 600;
   transition: color 0.2s ease-in-out;
 }
+
 .link-faded:hover {
   color: rgba(28, 28, 28, 0.957);
 }
+
 #email-input {
   width: 300px;
-  padding: 20px;
+  padding: 12px;
   font-family: "NunitoSans";
   font-weight: 600;
   font-size: 16px;
@@ -709,14 +789,17 @@ strong {
   outline: none;
   transition: border-color 0.1s ease-in-out;
 }
+
 #email-input::placeholder {
   color: #7a7a7a;
   font-weight: 600;
 }
+
 #email-input:focus {
   border-color: #000;
   background-color: #fff;
 }
+
 .sixthCol {
   padding-left: 20px;
   flex-basis: 100%;
@@ -724,13 +807,16 @@ strong {
   margin-top: 30px;
   align-items: flex-start;
 }
+
 .subscribe {
   letter-spacing: 0.18em;
   background-color: black;
 }
+
 .subscribe:hover {
   background-color: #ff871b;
 }
+
 .media-links {
   margin-left: 2%;
   padding: 20px;
@@ -738,6 +824,7 @@ strong {
   color: rgba(28, 28, 28, 0.65);
   background-color: #fff;
 }
+
 .parent-link {
   margin-inline-end: 1em;
   list-style: none;
@@ -745,6 +832,7 @@ strong {
   gap: 28px;
   text-align: center;
 }
+
 .payment-methods {
   padding: 20px;
   background-color: #fff;
@@ -753,6 +841,7 @@ strong {
   justify-content: center;
   gap: 18px;
 }
+
 .copy-right-container {
   display: flex;
   justify-content: center;
@@ -765,6 +854,7 @@ strong {
   letter-spacing: 0.16em;
   padding: 35px 0;
 }
+
 /* DropDown CSS  */
 
 .dropDownMenu-Main-Container {
@@ -775,6 +865,7 @@ strong {
   gap: 5px;
   color: black;
 }
+
 .dropdown {
   position: relative;
   min-width: 200px;
@@ -891,7 +982,7 @@ strong {
   background-color: #f8f9fa;
 }
 
-.dropdown-item.selected {
+.dropdown-item .selected {
   background-color: #e7f3ff;
 }
 
@@ -899,9 +990,11 @@ strong {
   min-width: auto;
   min-width: 300px;
 }
+
 .dropdown:not(.country-wide) {
   width: 150px;
 }
+
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
@@ -947,6 +1040,174 @@ strong {
   }
 
   #email-input {
-    max-width: 100%;
+    max-width: 95%;
+  }
+}
+
+/* Additional Mobile Responsiveness */
+@media screen and (max-width: 1024px) {
+  .GridGallery {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Global */
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Header */
+  .MainBar {
+    padding: 15px 20px;
+    flex-wrap: wrap;
+  }
+
+  .logoImg {
+    width: 80px;
+  }
+
+  .otherNav {
+    gap: 0.5rem;
+  }
+
+  /* Navigation Links - Horizontal Scroll */
+  .listContainers ul {
+    gap: 1rem;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: flex-start;
+    padding-bottom: 5px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .listContainers ul::-webkit-scrollbar {
+    display: none;
+  }
+
+  .listContainers li {
+    font-size: 13px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  /* Hero Section */
+  .heroSection {
+    height: auto;
+    min-height: 60vh;
+    padding: 40px 0;
+  }
+
+  .HeroContent {
+    margin: 0 5%;
+  }
+
+  .bigFont {
+    font-size: 40px;
+    letter-spacing: 4px;
+    line-height: 1.2;
+  }
+
+  /* Halloween Sale */
+  .halloween-section {
+    padding: 2rem 1rem;
+  }
+
+  .marginText {
+    font-size: 14px;
+  }
+
+  /* Grids */
+  .GridGallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  /* Reviews */
+  .Grid-Reviews {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* FAQ */
+  .faq-item {
+    width: 90%;
+  }
+
+  .faq-question {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+
+  .easyart-container {
+    height: auto;
+    padding: 40px 0;
+  }
+
+  .card-container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .heroSection {
+    min-height: 50vh;
+  }
+
+  .bigFont {
+    font-size: 28px;
+    letter-spacing: 2px;
+  }
+
+  .GridGallery {
+    grid-template-columns: 1fr;
+    padding: 0.5rem;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .ReviewsContainer {
+    margin: 5px 2%;
+  }
+
+  .faq-item {
+    width: 95%;
+  }
+
+  /* Make sure footer aligns nicely on very small screens */
+  .footer-items {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  /* Dropdown Fix - Mobile */
+  .dropDownMenu-Main-Container {
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  .dropdown-button {
+    width: 95%;
+    justify-content: space-between;
+  }
+
+  .button-content {
+    max-width: 80%;
+    overflow: hidden;
+  }
+
+  #selectedCountry {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
   }
 }
